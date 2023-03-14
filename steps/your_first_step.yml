@@ -6,7 +6,7 @@ startFlow:
         person: keen
         messages:
           - text: Hello world
-            delay: 2000
+            delay: 3000
 trigger:
   type: user_message
   params:
