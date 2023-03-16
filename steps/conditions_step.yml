@@ -16,7 +16,7 @@ trigger:
       conditions:
         - conditionId: text_contains_strings
           params:
-            text: text_contains_strings
+            text: "${userMessageText}"
             strings:
               - good
       then:
